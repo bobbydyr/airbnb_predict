@@ -30,20 +30,30 @@
     1. has_availability: This is really interesting, but we could think about it this way. A listing is avaliable maybe because nobody wants to rent it.
     2. room_type_Shared room: This is intuitive. Like carpools, shared rooms would be cheaper.
     3. beds: this is intuitive because more beds usually means more expenses.
+    4. The price drops when it is located in University district. And This is intuitive as well, students are poor.
 2. Positive factors on price:
     1. requires_license: One way to understand this is, if a listing requires license, it may be because the house is expensive, and the househost does not want accomendate some random people with no reliable background info.
     2. bedrooms: This is to be expected. The larger the space is, the more it will likely to cost.
 
 ## Steps:
-- Step 0: Load and register DataFrame
-- Step 1: Visualize total number of crime for each category
-- Step 2: Visualize total number of crime for each district
-- Step 3: Analysis for downtown crime over the years.
-- Step 4: Visualize total crime for each month.
-- Step 5: Compare 3 specific day.
-- Step 6: Deeper Analysis for each category of crime.
-- Step 7: Analysis of resolution rate over time for each category of crime.
-- Step 8: Simple spatial analysis with **Kmeans** clustering.
-- Step 9: Time Series: ARIMA prediction for the future month.
+- Step 0: Select features, filter out text and irrelavent features.
+- Step 1: Change text to float numbers using regex
+- Step 2: Normalize: (x - mean) / standard deviation
+- Step 3: Calculate how many days has been hosted, difference for date
+- Step 4: Ordinal variable to numerical numbers.
+- Step 5: Boolean value to 0/1.
+- Step 6: One-hot-encoding
+- Step 7: Change 80% -> 0.8
+- Step 8: Input na with mean
+- Step 9: Drop some na instances.
+- Step 10: Drop outliers. (3 standard deviations away from mean.)
+- Step 11: Drop the observation where price = 0.
+- Step 12: Give a log to label, since price is really skewed. 
+
+
+
+
+
+
 
 
