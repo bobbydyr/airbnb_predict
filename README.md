@@ -13,6 +13,7 @@
 1. Feature Engineering.
 2. Build model with regression fomular.
 3. Interpret model.
+![](/pic/truevspredict.png)
 
 ## Executive Summary:
 
