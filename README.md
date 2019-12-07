@@ -5,7 +5,7 @@
 
 **Link** -> https://github.com/bobbydyr/airbnb_predict/blob/master/airbnb_prediction.ipynb
 
-![](1fomular1.png)
+![](fomular1.png)
 
 ## Goal:
 - This project is primarily the goal to build a mutiple linear regression to predict housing price.
