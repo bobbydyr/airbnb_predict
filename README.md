@@ -1,18 +1,18 @@
 # AirBnb Listing Price Prediction from Scratch
 
-- 
+- Focused on Feature Engineering methods, and the whole model were developed from scratch. 
 
 
 **Link** -> https://github.com/bobbydyr/airbnb_predict/blob/master/airbnb_prediction.ipynb
 
-![](1.png)
+![](1fomular1.png)
 
 ## Goal:
-- With a background of people care about their safety more than ever. I am trying to understand crime happened in San Francisco in the past 16 years with more than 2 million instances.
+- This project is primarily the goal to build a mutiple linear regression to predict housing price.
 
-1. Try to understand crime respect to time, area in San Francisco.
-2. Try to give suggestion to police department on how to distribute police.
-3. Try to give policy makers suggestions and help with the policy making process.
+1. Feature Engineering.
+2. Build model with regression fomular.
+3. Interpret model.
 
 ## Executive Summary:
 
