@@ -35,7 +35,7 @@
     1. requires_license: One way to understand this is, if a listing requires license, it may be because the house is expensive, and the househost does not want accomendate some random people with no reliable background info.
     2. bedrooms: This is to be expected. The larger the space is, the more it will likely to cost.
 
-## Steps:
+## Steps for feature engineering:
 - Step 0: Select features, filter out text and irrelavent features.
 - Step 1: Change text to float numbers using regex
 - Step 2: Normalize: (x - mean) / standard deviation
