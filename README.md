@@ -1,33 +1,39 @@
-# Thanks for visiting Bobby's warehouse.
-Thanks so much for visiting my data warehouse, I fall in love with data science 2 years ago and it is really amazing.
+# AirBnb Listing Price Prediction from Scratch
 
-A nice journey starts here!
+- 
 
-# 1. Spark Projects:
 
-  ### 1.1 Spark Integrated Crime Data Analysis And Modeling:
-   - Spark, Spark SQL, DataFrame, Data Clean, Visualization, Clustering, Time Series.
-   - https://github.com/bobbydyr/sfcrime
+**Link** -> https://github.com/bobbydyr/airbnb_predict/blob/master/airbnb_prediction.ipynb
 
-# 2. Machine Learning:
+![](1.png)
 
-  ### 2.1 Integrated Phone Service User Churn Prediction 
-   - Machine Learning Modeling, Feature Engineering, Model Selection and Evaluation, Ensemble Learning.
-   - https://github.com/bobbydyr/userchurn
-   
-  ### 2.2 Airbnb listing price prediction with only numpy
-   - Develop mutiple linear model and cross validation, compute scores by hand without any frameworks. 
-   - Heavily focused on feature engineering, and testing models.
-   - 
-  
-  ### 2.3 Product Review Topic Modeling
-   - Clustering the document and identify the topic. Data from on of the biggest eCommerce platform.
-   - https://github.com/bobbydyr/simple_nlp_topic_modeling
+## Goal:
+- With a background of people care about their safety more than ever. I am trying to understand crime happened in San Francisco in the past 16 years with more than 2 million instances.
 
-# 3. Visualizations
-  ### 3.1 Tableau
-   - [Interesting Tableau Visualizations](tableau_port/README.md)
+1. Try to understand crime respect to time, area in San Francisco.
+2. Try to give suggestion to police department on how to distribute police.
+3. Try to give policy makers suggestions and help with the policy making process.
 
-  ### 3.2 R Studio Shiny App (Interactive Visualization)
+## Executive Summary:
 
-   - https://github.com/bobbydyr/datascience/tree/master/rshinyapp
+1. Souther, Mission, Nothern are three most dangerous distric. Should distribute more police.
+2. More crime in January, March, October, and generaly more crime in summer. Visitors should look out.
+3. In a day, noon, evening, and midnight have more crimes than usual. And generally more crime in the afternoon. Police should look out for these time periods.
+4. Crime such as sex offense has a really clear upward trend and the resolution rate is decreasing. And policy makers should really look out for new policys to increase resolution rate and think about why there are more and more sex offense.
+5. Crime such as drug has a clear decline trend and it is a really good sign. Might because of the new policy respect to drug. 
+6. There are more and more theft crimes, but less and less crimes been resloved by court. Policy makers should really think about what went wrong.
+7. Detailed crime category analysis in step 6 and 7.
+
+## Steps:
+- Step 0: Load and register DataFrame
+- Step 1: Visualize total number of crime for each category
+- Step 2: Visualize total number of crime for each district
+- Step 3: Analysis for downtown crime over the years.
+- Step 4: Visualize total crime for each month.
+- Step 5: Compare 3 specific day.
+- Step 6: Deeper Analysis for each category of crime.
+- Step 7: Analysis of resolution rate over time for each category of crime.
+- Step 8: Simple spatial analysis with **Kmeans** clustering.
+- Step 9: Time Series: ARIMA prediction for the future month.
+
+
